@@ -1,0 +1,38 @@
+  button#dropdown-basic {
+    background-color: #002d53;
+}
+
+  .navLayout{
+    border-bottom: 0.3px solid #002d53;
+    background-color: rgb(236, 236, 227);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .navText{
+    color: #002d53;
+    padding-left: 10px;
+    border-left: 0.3px solid #002d53;
+  }
+
+  .navText:hover{
+    color: #1c74bd;
+  }
+
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.navLayout {
+  /* padding-top: 10px; */
+  border-bottom: 0.3px solid black;
+}
+
+  

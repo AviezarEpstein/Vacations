@@ -1,0 +1,128 @@
+.vacationCard {
+    display: inline-block;
+    height: 350px;
+    margin: 1%;
+    /* justify-content: space-around; */
+    /* gap: 20px; */
+    box-shadow: 0 0 7px 4px #00000012;
+    border: none;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.vacationCard:hover {
+    box-shadow: 0 0 10px 10px #0000002e;
+    transition: all 0.3s ease;
+}
+
+
+
+.image {
+    height: 40%;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+
+
+.vacationCard.card:before {
+    content: '';
+    width: 100%;
+    height: 33%;
+    background: linear-gradient(
+180deg
+, #000000, transparent);
+    display: block;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 5;
+    border-radius: 20px 20px 0;
+}
+
+.description {
+    height: 50%;
+    width: 350px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.leftRightContainer {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background-color: #002d53;
+    border-radius: 0 0 20px 20px;
+}
+
+
+.insideCard {
+    padding: 8px 0;
+    background-color: #002d53;
+    color: #ffffff;
+    border: none;
+}
+
+.insideCard p {
+    margin-bottom: 2px;
+}
+
+/* .card-body:not(.cardBody) {
+    
+} */
+
+.followUnfollow{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 5;
+    padding: 0;
+    color: #ffffff;
+}
+
+.delete-edit{
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 5;
+    padding: 0;
+    color: #ffffff;
+}
+
+.edit{
+   display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 5;
+    padding: 0;
+    color: #ffffff; 
+}
+
+/* ------------------------------------------------------ */
+
+/* .card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+
+.card-title {
+    margin-bottom: .5rem;
+    font-size: 28px;
+    font-weight: 300;
+} */

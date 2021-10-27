@@ -1,0 +1,27 @@
+.editUser{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../images/v4.jpg");
+}
+
+.editUserCard{
+    padding: 20px;
+    width: 300px;
+    align-items: center;
+    box-shadow: 0 0 7px 4px #00000012;
+    border: none;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+}
+
+.buttons-layout{
+    display: flex;
+    justify-content: space-around;
+}
+
+.editUserCard:hover{
+    box-shadow: 0 0 10px 10px #0000002e;
+    transition: all 0.3s ease;
+}

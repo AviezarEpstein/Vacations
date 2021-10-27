@@ -1,0 +1,29 @@
+.App {
+  margin: 0%;
+  height: 100%;
+  padding: 0%;
+  /* text-align: center; */
+  
+}
+
+/* nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(73, 79, 82);
+  color: white;
+} */
+
+/* .nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+} */
+
+.App > chartContainer{
+  display: flex;
+  justify-content: center;
+}
